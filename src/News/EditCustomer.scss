@@ -1,0 +1,50 @@
+.form-container {
+  width: 500px;
+  //   border: 1px solid red;
+  padding: 10px;
+  font-size: 20px;
+  form {
+    // border: 1px solid red;
+    .row {
+      margin: 12px;
+      label {
+        font-weight: 600;
+      }
+      input {
+        width: 100%;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 17px;
+      }
+      p {
+        margin-top: 3px;
+        color: red;
+      }
+      .one {
+        float: right;
+        margin-right: -12px;
+        .delete {
+          background-color: red;
+          margin-right: 262px;
+          border-radius: 5px;
+          padding: 5px 10px;
+          color: white;
+        }
+        .cancel {
+          margin-right: 30px;
+          padding: 5px 10px;
+          border-radius: 5px;
+        }
+        .insert {
+          padding: 5px 10px;
+          border-radius: 5px;
+          background: rgb(12, 250, 24);
+        }
+      }
+    }
+  }
+  .bottom {
+    margin: 100px 0 0 10px;
+    color: blue;
+  }
+}

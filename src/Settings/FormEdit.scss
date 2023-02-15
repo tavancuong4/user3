@@ -1,0 +1,50 @@
+// .app {
+//   margin-left: 300px;
+//   h1 {
+//     .icon {
+//       vertical-align: middle;
+//       font-size: 45px;
+//     }
+//   }
+//   button {
+//     background: blue;
+//     padding: 4px 8px;
+//     border-radius: 5px;
+//   }
+// }
+
+.container {
+  width: 100%;
+  form {
+    margin-left: 30%;
+    .formInput {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      label {
+        font-size: 12px;
+        color: rgb(46, 45, 45);
+        font-weight: 600;
+        font-size: 20px;
+      }
+      input {
+        padding: 10px;
+        margin: 10px 0px;
+        border-radius: 5px;
+        border: 1px solid gray;
+      }
+      span {
+        font-size: 12px;
+        padding: 3px;
+        color: red;
+        display: block;
+      }
+    }
+    button {
+      margin-top: 10px;
+      padding: 5px 10px;
+      background: blue;
+      border-radius: 4px;
+    }
+  }
+}

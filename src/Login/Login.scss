@@ -1,0 +1,28 @@
+.login-container {
+  margin-left: 10%;
+  width: 500px;
+  font-size: 20px;
+  .title {
+    font-size: 35px;
+    margin: 70px 0;
+  }
+  input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0 25px 0;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+
+  .eye {
+    position: absolute;
+    margin: 23px 0 0 -35px;
+  }
+  .submit {
+    width: 85px;
+    padding: 5px 10px;
+    background-color: rgb(50, 217, 50);
+    border-radius: 5px;
+    color: white;
+  }
+}
